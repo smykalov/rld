@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+body {
+  background: #fff;
+  color: rgb(51,51,51);
+  font-family: 'Exo 2', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.page-header {
+  background: white;
+  padding: 24px 3% 10px;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+}
+
+.logo-nav{
+  float: left;
+  margin-top: 0.4em;
+  margin-bottom: 1em;
+  }
+
+  .header-nav {
+    display: none;
+    margin-top: 1.4em;
+    margin-bottom: 1em;
+  }
+
+.marketing-intro {
+  color: #fff;
+  text-align: center;
+}
+
+  .marketing-intro-story {
+    padding: 45px 3% 52px;
+  }
+
+  .marketing-intro-manage {
+    background: rgb(255,102,0);
+  }
+    .marketing-story-adress {
+      border: 2px solid white;
+      background: white;
+      color: rgb(51,51,51);
+      padding: 10px 20px;
+
+      /* transition: all duration timing-fn animation-delay */
+      -webkit-transition: .3s;
+      transition: .3s;
+    }
+    .marketing-story-adress:active,
+    .marketing-story-adress:hover {
+      background: rgb(51,51,51);
+      color: white;
+    }
+  .marketing-intro-service {
+    background: rgb(51,51,51);
+  }
+
+  .marketing-intro-story h1 {
+    margin-bottom: 28px;
+    font-size: 22px;
+  }
+  .marketing-intro-story p {
+    margin-bottom: 44px;
+  }
+
+.marketing-signup {
+  background: white;
+  margin: 2em 3%;
+   -webkit-box-shadow: 0 0 0 1px rgba(31,50,63,0.13),
+       0 0 25px rgba(31,50,63,0.1);
+   box-shadow: 0 0 0 1px rgba(31,50,63,0.13),
+       0 0 25px rgba(31,50,63,0.1);
+  text-align: center;
+  border-radius: 4px;
+}  
+  .marketing-signup li {
+    display: block;
+  }
+  .marketing-signup-content {
+    padding: 2em;
+  }
+  .marketing-signup h1 {
+    position: relative;
+    font-size: 24px;
+    padding-bottom: 35px;
+    margin-bottom: 35px;
+  }
+  .marketing-signup h1:after {
+    position: absolute;
+    bottom: 0;
+    /* 
+    applying both left and right 
+    coords. centers element 
+    */
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    width: 3em;
+    display: block;
+    border-bottom: 1px solid #00c8d7;
+    content: "";
+  }
+  .marketing-signup p {
+    font-family: georgia, times, serif;
+    font-size: 12px;
+    line-height: 1.4;
+    color: #78848b;
+  }
+  .marketing-signup-form {
+    position: relative;
+    background: #edeeef;
+    padding: 26px 17px 60px; 
+    text-align: left;
+  }
+    .marketing-signup-form li {
+      background: white;
+      border-radius: 4px;
+      margin-bottom: 20px;
+      line-height: 28px;
+      padding: 6px 10px;
+      
+    }
+    .marketing-signup-form label {
+      display: inline-block;/* in order to define width */
+      font-family: helvetica, arial, sans-serif;
+      font-size: 13px;
+      font-weight: bold;
+      width: 30%;
+      min-width: 8em;
+    }
+    .marketing-signup-form input {
+      display: inline-block;/* in order to define width */
+      border: none;
+      font-size: 14px;
+      width: 62%;
+      height: 32px;
+      padding: 0 4px;
+      border-radius: 3px;
+      background-color: white;
+      border: 1px solid transparent; 
+      -webkit-transition: .25s;
+      transition: .25s;
+    }
+    .marketing-signup-form input:focus {
+      outline: none;
+      background-color: #f2fbff;
+      border-color: rgba(31,50,63,0.1);
+    }
+     .marketing-signup-form .marketing-signup-submit-field {
+      padding: 0;
+    }
+    .marketing-signup-submit {
+      display: block;
+      background: #00c8d7;
+      color: white;
+      border-radius: 3px;
+      border:0;
+      width:100%;
+      height: 32px;
+      text-align: left;
+      font-family: helvetica, arial, sans-serif;
+      padding: 0 10px;
+      font-size: 13px;
+      font-weight: bold;
+    }
+@media screen and (min-width: 520px) {
+  body {
+    background: url(imgs/background.jpg) fixed;
+    /* always use this one together with background
+       in order to fill the element's background */
+    background-size: cover;
+  }
+
+  .page-header {
+    background: white;
+    padding: 54px 6% 30px;
+     padding: 24px 3% 10px;
+    overflow: hidden;
+    position: fixed;
+    width: 100
+  }
+
+    .header-nav {
+      display: block;
+      float: right;
+      font-family: 'Exo 2', sans-serif;
+      font-weight: bold;
+    }
+    .header-nav li {
+      display: inline;
+      margin-right: 10px;
+    }
+    .header-nav a {
+      font-size: 13px;
+    }
+    .header-nav li:first-child a {
+      border: 1px solid rgb(51,51,51);
+      background-color: white;
+      color: rgb(51,51,51);
+      padding: 5px 10px;
+      border-radius: 3px;
+      transition: .25s;
+    }
+
+    .header-nav li:first-child a:hover {
+      background-color: rgb(51,51,51);
+      color: white;
+    }
+
+  .marketing-intro {
+    overflow: hidden;
+  }
+    .marketing-intro-story {
+      float: left;
+      width:50%;
+      min-height: 1060px;
+      padding: 200px 6% 26px;
+    }
+      .marketing-intro-story h1 {
+        font-size: 32px;
+        margin-bottom: 42px;
+      }
+      .marketing-intro-story p {
+        font-size: 18px;
+        margin-bottom: 102px;
+      }
+
+    .marketing-intro-manage {
+      background: rgba(255, 102, 0, 0.8);
+    }
+
+    .marketing-intro-service {
+      background: rgba(51, 51, 51, 0.8);
+    }
+
+  .features {
+    background: white;
+    padding: 40px 6%;
+  }
+  
+}
