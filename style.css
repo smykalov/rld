@@ -40,11 +40,11 @@ a {
 
 .marketing-intro {
   color: #fff;
-  text-align: center;
+  text-align: left;
 }
 
   .marketing-intro-story {
-    padding: 150px 3% 52px;
+    padding: 150px 8% 52px;
   }
 
   .marketing-intro-manage {
@@ -76,6 +76,92 @@ a {
   .marketing-intro-story p {
     margin-bottom: 44px;
   }
+    .features {
+    background: white;
+    padding: 40px 6%;
+  }
+     .features h1{
+      color: red;
+      text-align: center;
+  }
+    .features h1:hover {
+      color: orange;
+    }
+   .features p{
+      text-align: center;
+    }
+    #remDiskButton {
+     margin:10px auto 5px;
+      height: 150px;
+      width: 150px;
+      border-radius: 100%;
+      background-image:url(imgs/remDis01.svg);
+      background-size:150px 150px;
+      background-repeat:no-repeat;
+      padding: 100px 6% 20px;
+      transition:width 2s, height 2s, transform 2s;
+      -webkit-transition:width 2s, height 2s, -webkit-transform 2s;
+    }
+    #remDiskButton:hover {
+      background-image:url(imgs/remDis02.svg);
+      background-size: 150px 150px;
+      /*transform:rotate(180deg);
+      -webkit-transform:rotate(180deg);*/
+    }
+     #remShinButton {
+     margin:10px auto 5px;
+      height: 150px;
+      width: 150px;
+      border-radius: 100%;
+      background-image:url(imgs/remShin01.svg);
+      background-size:150px 150px;
+      background-repeat:no-repeat;
+      padding: 100px 6% 20px;
+      transition:width 2s, height 2s, transform 2s;
+      -webkit-transition:width 2s, height 2s, -webkit-transform 2s;
+    }
+    #remShinButton:hover {
+      background-image:url(imgs/remShin02.svg);
+      background-size: 150px 150px;
+      /*transform:rotate(180deg);
+      -webkit-transform:rotate(180deg);*/
+    }
+    #pokraskDiskButton {
+      margin:10px auto 5px;
+      height: 150px;
+      width: 150px;
+      border-radius: 100%;
+      background-image:url(imgs/remDis02.svg);
+      background-size:150px 150px;
+      background-repeat:no-repeat;
+      padding: 100px 6% 20px;
+      transition:width 2s, height 2s, transform 2s;
+      -webkit-transition:width 2s, height 2s, -webkit-transform 2s;
+    }
+    #pokraskDiskButton:hover {
+      background-image:url(imgs/pokraskDisk02.svg);
+      background-size: 150px 150px;
+      /*transform:rotate(180deg);
+      -webkit-transform:rotate(180deg);*/
+    }
+    #shinomontajButton {
+      margin:10px auto 5px;
+      height: 150px;
+      width: 150px;
+      border-radius: 100%;
+      background-image:url(imgs/shinomon01.svg);
+      background-size:150px 150px;
+      background-repeat:no-repeat;
+      padding: 100px 6% 20px;
+      transition:width 2s, height 2s, transform 2s;
+      -webkit-transition:width 2s, height 2s, -webkit-transform 2s;
+    }
+    #shinomontajButton:hover {
+      background-image:url(imgs/shinomon02.svg);
+      background-size: 150px 150px;
+      /*transform:rotate(180deg);
+      -webkit-transform:rotate(180deg);*/
+    }
 
 .marketing-signup {
   background: white;
@@ -179,7 +265,7 @@ a {
     }
 @media screen and (min-width: 520px) {
   body {
-    background: url(imgs/background.jpg) fixed;
+    background: url("imgs/background.jpg") fixed;
     /* always use this one together with background
        in order to fill the element's background */
     background-size: cover;
@@ -235,7 +321,7 @@ a {
         margin-bottom: 42px;
       }
       .marketing-intro-story p {
-        font-size: 18px;
+        font-size: 20px;
         margin-bottom: 102px;
       }
 
@@ -248,8 +334,37 @@ a {
     }
 
   .features {
+    overflow: hidden;
     background: white;
     padding: 40px 6%;
   }
+    .feature-remontDisk {
+      float: left;
+      width:50%;
+      min-height: 400px;
+      padding: 50px 6% 20px;
+      border-bottom: 2px solid orange;
+      }
+    .feature-remontShin {
+      float: right;
+      width:50%;
+      min-height: 400px;
+      padding: 50px 6% 20px;
+      border-bottom-width: 2px solid orange;
+      border-left: 2px solid orange; 
+    }
+    .feature-pokraskDisk {
+      float: left;
+      width:50%;
+      min-height: 400px;
+      padding: 50px 6% 20px;
+    }
+    .feature-shinomon {
+      float: right;
+      width:50%;
+      min-height: 400px;
+      padding: 50px 6% 20px;
+      border-left: 2px solid orange;
+    }
   
 }
