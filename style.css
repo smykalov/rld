@@ -268,13 +268,13 @@ a {
     background: url("imgs/background.jpg") fixed;
     /* always use this one together with background
        in order to fill the element's background */
-    background-size: cover;
+    background-size: contain;
   }
 
   .page-header {
     background: white;
     padding: 54px 6% 30px;
-     padding: 24px 3% 10px;
+    padding: 24px 3% 10px;
     overflow: hidden;
     position: fixed;
     width: 100
@@ -350,7 +350,7 @@ a {
       width:50%;
       min-height: 400px;
       padding: 50px 6% 20px;
-      border-bottom-width: 2px solid orange;
+      border-bottom: 2px solid orange;
       border-left: 2px solid orange; 
     }
     .feature-pokraskDisk {
