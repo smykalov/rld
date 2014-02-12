@@ -263,7 +263,7 @@ a {
       font-size: 13px;
       font-weight: bold;
     }
-@media screen and (min-width: 520px) {
+@media screen and (min-width: 640px) {
   body {
     background: url("imgs/background.jpg") fixed;
     /* always use this one together with background
