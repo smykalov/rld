@@ -37,7 +37,6 @@ a {
     margin-top: 1.4em;
     margin-bottom: 1em;
   }
-
 .marketing-intro {
   color: #fff;
   text-align: left;
@@ -85,28 +84,23 @@ a {
       text-align: center;
   }
     .features h1:hover {
-      color: orange;
+      color: #FF9900;
     }
    .features p{
       text-align: center;
     }
     #remDiskButton {
-     margin:10px auto 5px;
+      margin:10px auto 5px;
       height: 150px;
       width: 150px;
       border-radius: 100%;
-      background-image:url(imgs/remDis01.svg);
-      background-size:150px 150px;
-      background-repeat:no-repeat;
-      padding: 100px 6% 20px;
-      transition:width 2s, height 2s, transform 2s;
-      -webkit-transition:width 2s, height 2s, -webkit-transform 2s;
+      background-color: red;
+      padding: 25px;
+      transition: background 0.5s ease;
+      -webkit-transition: background 0.5s ease;
     }
     #remDiskButton:hover {
-      background-image:url(imgs/remDis02.svg);
-      background-size: 150px 150px;
-      /*transform:rotate(180deg);
-      -webkit-transform:rotate(180deg);*/
+      background-color: #FF9900;
     }
      #remShinButton {
      margin:10px auto 5px;
@@ -162,7 +156,23 @@ a {
       /*transform:rotate(180deg);
       -webkit-transform:rotate(180deg);*/
     }
-
+.services {
+  background: white;
+}
+    .servHeader {
+      font-size: 25px;
+      padding: 120px 6% 20px;
+      }
+    .services p {
+      padding: 20px 6% 20px;
+    }
+    .remontShin-Txt {
+      margin-right: 6%;
+    }
+    .remontShin-Img {
+    float: left;
+    margin-right: 20px;
+  }
 .marketing-signup {
   background: white;
   margin: 2em 3%;
@@ -172,7 +182,10 @@ a {
        0 0 25px rgba(31,50,63,0.1);
   text-align: center;
   border-radius: 4px;
-}  
+}
+  .txtimg {
+    width:100%;
+  }
   .marketing-signup li {
     display: block;
   }
@@ -268,7 +281,7 @@ a {
     background: url("imgs/background.jpg") fixed;
     /* always use this one together with background
        in order to fill the element's background */
-    background-size: contain;
+    background-size: 100%;
   }
 
   .page-header {
@@ -343,15 +356,15 @@ a {
       width:50%;
       min-height: 400px;
       padding: 50px 6% 20px;
-      border-bottom: 2px solid orange;
+      border-bottom: 2px solid #FF9900;
       }
     .feature-remontShin {
       float: right;
       width:50%;
       min-height: 400px;
       padding: 50px 6% 20px;
-      border-bottom: 2px solid orange;
-      border-left: 2px solid orange; 
+      border-bottom: 2px solid #FF9900;
+      border-left: 2px solid #FF9900; 
     }
     .feature-pokraskDisk {
       float: left;
@@ -364,7 +377,11 @@ a {
       width:50%;
       min-height: 400px;
       padding: 50px 6% 20px;
-      border-left: 2px solid orange;
+      border-left: 2px solid #FF9900;
     }
+  .services {
+    overflow: hidden;
+    background: white;
+  }
   
 }
