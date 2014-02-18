@@ -166,13 +166,23 @@ a {
     .services p {
       padding: 20px 6% 20px;
     }
-    .remontShin-Txt {
-      margin-right: 6%;
+    .services ul {
+      padding: 20px 10% 20px;
+      font-style: italic;
     }
-    .remontShin-Img {
-    float: left;
-    margin-right: 20px;
-  }
+    .remontDisk {
+      background-color: #FFCC00;
+    }
+    .remontShin {
+      background-color: #FF9900;
+    }
+     .remontShin {
+      background-color: #FF9900;
+    }
+    .pokrasDisk {
+      background-color: red;
+    }
+
 .marketing-signup {
   background: white;
   margin: 2em 3%;
